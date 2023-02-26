@@ -1,0 +1,29 @@
+{
+  "name": "clickerjs",
+  "version": "0.5.0",
+  "description": "Simple clicking game to learn React",
+  "main": "app/index.jsx",
+  "scripts": {
+    "build": "browserify -t [ babelify --presets [ react ] ] app/index.jsx -o app/public/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elucidation/ClickerJs.git"
+  },
+  "keywords": [
+    "clicker"
+  ],
+  "author": "Sam",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Elucidation/ClickerJs/issues"
+  },
+  "homepage": "https://github.com/Elucidation/ClickerJs#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
